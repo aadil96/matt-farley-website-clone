@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	--purple: #7510F7;
+}
+
+.b-1 {
+	border: 1px solid black;
+}
+
+
+.b-2 {
+	border: 2px solid black;
+}
+
+.b-purple {
+	border-color: var(--purple);
+}
+
+.d-flex{ 
+	display: flex;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.ml-2 {
+	margin-left: 0.5rem;
+}
+
+.mt-2{
+	margin-top: .75rem;
+}
+
+.mt-4{
+	margin-top: 1rem;
+}
+
+.mt-8{
+	margin-top: 2rem;
+}
+
+.mx-8{
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.mx-auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my-auto{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.p-2 {
+	padding: 0.5rem;
+}
+
+.px-2{
+	padding-left: .75rem;
+	padding-right: .75rem;
+}
+
+.px-6 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.px-4{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.px-8{
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.py-2{
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+}
+
+.justify-content-around{
+	justify-content: space-around;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+
+.rounded {
+	border-radius: 0.25rem;
+}
+
+.rounded-full {
+	border-radius: 9999px;
+}
+
+.logo-img {
+	max-height: 3rem;
+}
+
+.logo-img > img {
+	width: 50px;
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-items {
+	font-weight: 400;
+	font-size: 1.25rem;	
+}
+
+.nav-items > a {
+	color: black;
+	text-decoration: none;
+}
+
+#say-hello {
+	background-color: transparent;
+	color: var(--purple);
+}
+
+#say-hello:hover {
+	background-color: var(--purple);
+	color: #fff;
+}
+
+.header {
+	margin-top: 23vh;
+}
+
+.header > h1 {
+	font-size: 2.5rem;
+}
+
+.sub-header > p {
+	font-size: 1.35rem;
+	font-weight: 500;
+	color: rgba(10, 10, 10, 0.9);	
+}
